@@ -1,0 +1,39 @@
+fieldset {
+  border: none;
+  margin-bottom: 48px;
+}
+
+legend {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+
+  & img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+  }
+
+  & p {
+    font: var(--text-sm);
+    color: var(--text-heading);
+  }
+}
+
+.checkbox-input {
+  display: flex;
+  gap: 10px;
+
+  & p {
+    color: var(--text-body);
+    & span {
+      color: #59b2ff;
+      &:hover{
+        text-decoration: underline;
+      }
+      
+    }
+    
+  }
+}

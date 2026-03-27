@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Convite</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <aside>
+        <div class="aside-contener">
+          <img src="assets/icons/Logo.svg" alt="Logo Festivite" />
+          <h2>Festivite</h2>
+          <p>Crie um convite digital para o seu evento</p>
+        </div>
+      </aside>
+
+      <main>
+        <div class="main-container">
+          <h2 id="title">Crie seu convite</h2>
+          <form action="">
+            <fieldset>
+              <legend>
+                <img
+                  src="assets/icons/calendar.svg"
+                  alt="Ícone de calendário"
+                />
+                <p>Sobre o Evento</p>
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="Titulo">Título</label>
+                <input
+                  placeholder="Nome do evento"
+                  name="Titulo"
+                  id="Titulo"
+                  type="text"
+                />
+              </div>
+
+              <div class="flex gap16">
+                <div class="input-wrapper flex-2">
+                  <label for="Tipo">Início</label>
+                  <input name="Início" type="date" id="Início" lang="pt-br" />
+                </div>
+
+                <div class="input-wrapper flex-2">
+                  <label for="Fim">Fim</label>
+                  <input name="Fim" type="date" id="Fim" lang="pt-br" />
+                </div>
+              </div>
+
+              <div class="flex gap16">
+                <div class="input-wrapper flex-2">
+                  <label for="Tipo">Tipo</label>
+                  <input name="Tipo" type="text" id="Tipo" lang="pt-br" />
+                </div>
+
+                <div class="input-wrapper flex-2">
+                  <label for="Local">Local</label>
+                  <input
+                    placeholder="Link ou endereço"
+                    name="Local"
+                    type="text"
+                    id="Local"
+                    lang="pt-br"
+                  />
+                </div>
+              </div>
+
+              <div class="textuarea-wrapper">
+                <label for="Descrição">Descrição</label>
+                <textarea
+                  name="Descrição"
+                  id="Descrição"
+                  placeholder="Escreva sobre os detalhes do evento"
+                  rows="5"
+                ></textarea>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>
+                <img
+                  src="assets/icons/paintbrush-vertical.svg"
+                  alt="Ícone de personalização"
+                />
+                <p>Personalização</p>
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="">Cor principal</label>
+                <div class="cores">
+                  <input type="color" />
+                  <input value="#6A59FF" type="color" />
+                  <input value="#B259FF" type="color" />
+                  <input value="#FF59F9" type="color" />
+                  <input value="#FF598B" type="color" />
+                  <input value="#FF5959" type="color" />
+                  <input value="#FF8B59" type="color" />
+                  <input value="#FFCD59" type="color" />
+                  <input value="#E1FF59" type="color" />
+                  <input value="#59FF91" type="color" />
+                  <input value="#59FFF9" type="color" />
+                </div>
+              </div>
+
+              <div class="cards-imgens">
+                <label for="">Tema do evento</label>
+                <div class="cards">
+                  <div class="card">
+                    <img src="assets/imgs/Image.jpg" alt="Tema Aniversário" />
+                    <p>Aniversário</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (1).jpg" alt="Tema Infantil" />
+                    <p>Infantil</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (2).jpg" alt="Tema Formatura" />
+                    <p>Formatura</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (3).jpg" alt="Tema Casamento" />
+                    <p>Casamento</p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="assets/imgs/Image (4).jpg"
+                      alt="Tema Chá de bebê"
+                    />
+                    <p>Chá de bebê</p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="assets/imgs/Image (5).jpg"
+                      alt="Tema Chá de panela"
+                    />
+                    <p>Chá de panela</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (6).jpg" alt="Tema Carnaval" />
+                    <p>Carnaval</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (7).jpg" alt="Tema Páscoa" />
+                    <p>Páscoa</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (8).jpg" alt="Tema São João" />
+                    <p>São João</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (9).jpg" alt="Tema Halloween" />
+                    <p>Halloween</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (10).jpg" alt="Tema Natal" />
+                    <p>Natal</p>
+                  </div>
+                  <div class="card">
+                    <img src="assets/imgs/Image (11).jpg" alt="Tema Outro" />
+                    <p>Outro</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex gap16">
+                <div class="input-wrapper flex-1">
+                  <label for="style">Estilo</label>
+                  <input name="style" type="text" id="style" lang="pt-br" />
+                </div>
+
+                <div class="input-wrapper flex-2">
+                  <label for="photo">Foto de capa</label>
+                  <input name="photo" type="text" id="photo" lang="pt-br" />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset id="Contatos">
+              <legend>
+                <img src="assets/icons/contact.svg" alt="Ícone de contato" />
+                <p>Dados para contato</p>
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="name">Nome</label>
+                <input placeholder="Nome completo" type="text" />
+              </div>
+              <div class="flex gap16">
+                <div class="input-wrapperg flex-1">
+                  <label for="name">E-mail</label>
+                  <input placeholder="exemplo@email.com" type="text" />
+                </div>
+
+                <div class="input-wrapper flex-1">
+                  <label for="name">Telefone</label>
+                  <input placeholder="(99) 99999-9999 " type="text" />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="checkbox-input">
+                <input type="checkbox" />
+                <p>
+                  Li e concordo com os <span>Termos e Condições</span> e com a<span> Política de
+                  Privacidade</span>
+                </p>
+              </div>
+              <div class="checkbox-input">
+                <input type="checkbox" />
+                <p>Aceito receber atualizações e promoções por e-mail</p>
+              </div>
+              <div class="checkbox-input">
+                <input type="checkbox" />
+                <p>Aceito receber atualizações e promoções por SMS</p>
+              </div>
+
+              <div class="button-end flex">
+                <button >
+                  <img src="assets/icons/ticket.svg" alt="Ícone de envio" />
+                  <p>Gerar convite</p>
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

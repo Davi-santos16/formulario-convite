@@ -1,0 +1,29 @@
+
+.button-end{
+  justify-content: end;
+  
+  & button{
+    cursor: pointer;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    width: 177px;
+    height: 48px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--brand-dark);
+    color: var(--text-heading);
+    font: var(--body-md);
+    border: none;
+    outline: none;
+
+
+
+
+    & img{
+      width: 20px;
+      height: 20px;
+    }
+
+  }
+}
