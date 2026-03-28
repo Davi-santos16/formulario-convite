@@ -3,6 +3,7 @@
   justify-content: end;
   
   & button{
+    appearance: none;
     cursor: pointer;
     gap: 10px;
     display: flex;
